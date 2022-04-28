@@ -18,6 +18,7 @@ export const AddCategory = ({setCategorias}) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <title>Busca un Gif</title>
       <input type="text" value={inputValue} onChange={handleInputChange} />
     
     </form>
